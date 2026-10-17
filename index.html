@@ -375,7 +375,7 @@ body::before, body::after { display: none; }
    ================================================================ */
 const produtos = [
   { nome: "Tradicional Nutella", preco: 13.00, descricao: "massa tradicional com recheio cremoso de Nutella.", disponivel: true, visivel: true, categoria: "cookie", imagem: "imagens/tradicional-nutella.webp" },
-  { nome: "Choco Nutella", preco: 13.00, descricao: "massa 100% cacau com recheio cremoso de Nutella.", disponivel: false, visivel: true, categoria: "cookie", imagem: "imagens/choco-nutella.webp" },
+  { nome: "Choco Nutella", preco: 13.00, descricao: "massa 100% cacau com recheio cremoso de Nutella.", disponivel: true, visivel: true, categoria: "cookie", imagem: "imagens/choco-nutella.webp" },
   { nome: "Choconinho", preco: 13.00, descricao: "massa 100% cacau com recheio de brigadeiro de Ninho.", disponivel: true, visivel: true, categoria: "cookie", imagem: "imagens/choconinho.webp" },
   { nome: "Red Velvet", preco: 13.00, descricao: "massa aveludada Red Velvet recheada com brigadeiro de Ninho.", disponivel: true, visivel: true, categoria: "cookie", imagem: "imagens/red-velvet.webp" },
   { nome: "Limão Siciliano", preco: 14.00, descricao: "massa tradicional com recheio cremoso de brigadeiro de limão siciliano e raspas de limão siciliano.", disponivel: true, visivel: true, categoria: "cookie", imagem: "imagens/limao-siciliano.webp" },
@@ -387,7 +387,7 @@ const produtos = [
   { nome: "Kit 12 Mini Cookies", preco: 20.00, descricao: "kit com 12 mini cookies tradicionais com gotas de chocolate.", disponivel: true, visivel: true, categoria: "kit", imagem: "imagens/kit-12-mini-cookies.webp" },
   { nome: "Kit 6 Mini Cookies + Brownie", preco: 20.00, descricao: "combinação perfeita com 6 mini cookies crocantes e pedaços de brownie artesanal.", disponivel: false, visivel: true, categoria: "kit", imagem: "imagens/kit-12-mini-cookies.webp" },
   { nome: "Marmitinha Trad Nutella", preco: 26.00, descricao: "marmitinha de cookie tradicional com recheio generoso de Nutella.", disponivel: true, visivel: true, categoria: "marmitinha", imagem: "imagens/marmitinha-trad-nutella.webp" },
-  { nome: "Marmitinha Red Velvet", preco: 26.00, descricao: "marmitinha de cookie Red Velvet recheada com brigadeiro de Ninho.", disponivel: false, visivel: true, categoria: "marmitinha", imagem: "imagens/marmitinha-red-velvet.webp" }
+  { nome: "Marmitinha Red Velvet", preco: 26.00, descricao: "marmitinha de cookie Red Velvet recheada com brigadeiro de Ninho.", disponivel: true, visivel: true, categoria: "marmitinha", imagem: "imagens/marmitinha-red-velvet.webp" }
 ];
 /* FIM DA LISTA DE PRODUTOS */
 const formatarPreco = valor => valor.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
