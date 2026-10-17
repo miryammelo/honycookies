@@ -1,0 +1,38 @@
+HONY COOKIES | CARDÁPIO ATUALIZADO
+
+1. TESTAR NO COMPUTADOR
+   Abra index.html no Chrome com a pasta imagens ao lado.
+   Se quiser um único arquivo com as imagens dentro, use Hony_Cookies_Cardapio_Atualizado.html entregue separadamente.
+
+2. PUBLICAR NO GITHUB PAGES
+   Envie o arquivo index.html e a pasta imagens mantendo seus nomes.
+   Configure o GitHub Pages para publicar a partir da branch principal e da pasta raiz.
+   O site será estático: cada edição deve ser salva e publicada novamente para os clientes.
+
+3. ATUALIZAR PREÇOS, DESCRIÇÕES E ESTOQUE
+   No fim do index.html, procure por 'const produtos = [' e edite somente os campos:
+     nome: título exibido no card
+     preco: valor em reais, com ponto decimal, ex.: 18.00
+     descricao: texto que aparece no card
+     disponivel: true (disponível) / false (esgotado)
+     visivel: true (exibe) / false (oculta)
+     categoria: 'cookie', 'marmitinha', ou 'kit'
+     imagem: caminho da foto dentro da pasta imagens
+   Os filtros e os preços crescentes são gerados automaticamente.
+   Doce de Leite fica cadastrado, mas oculto por enquanto.
+
+4. ADICIONAR PRODUTOS
+   Coloque a imagem na pasta imagens e acrescente um objeto ao array, seguindo
+   a estrutura dos outros objetos. Coloque a vírgula entre os objetos.
+   Para foto 1:1, centralize o cookie em imagem quadrada com fundo transparente.
+
+5. FOTOS / MARCA
+   Fotos novas recebidas: marmitinhas Trad Nutella e Red Velvet, Limão Siciliano,
+   Brookie, Pistache. O kit 6 mini + brownie usa temporariamente a mesma foto
+   do kit 12 mini cookies, conforme pedido.
+   As outras imagens e a logo foram preservadas do HTML que você editou.
+
+6. ATENÇÃO
+   Todos os produtos exibidos estão inicialmente marcados como disponíveis.
+   Confirme o estoque real antes de divulgar o link. Não há painel administrativo
+   nem sincronização automática de disponibilidade nesta versão.
